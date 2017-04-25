@@ -1,0 +1,191 @@
+body
+{
+  margin:0px;
+}
+
+header
+{
+  height: 76px;
+  width: auto;
+  background-color: rgb(24, 23, 23);
+}
+
+header img
+{
+  margin-left: 40%;
+  height: 76px;
+  margin-top: 20px;
+
+}
+
+article
+{
+  padding-top: 150px;
+  background-color:rgb(24, 23, 23) ;
+  background-image: url("index_picture/background5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height: 784px;
+  width: auto;
+}
+
+footer
+{
+  background-color: rgb(24, 23, 23);
+  height: 76px;
+  width: auto;
+}
+
+.main
+{
+  margin-left: 138px;
+  margin-right: 138px;
+  min-width: 708px;
+  height: 630px;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.name
+{
+  font-family: "Yu Gothic Light";
+  font-weight: bold;
+  font-size: 44px;
+  margin-top: 120px;
+  text-align: center;
+  color:white;
+}
+
+.botton,.botton_first,.botton_last
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 92px;
+  margin-top: 95px;
+  display: inline-block;
+  font-family: "Yu Gothic Light";
+  font-weight: bold;
+  font-size: 24px;
+  min-width:169px;
+  text-align: center;
+  color:white;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.botton_first
+{
+  margin-left: 240px; /*92px*/
+}
+
+.botton_first:hover , .botton:hover, .botton_last:hover
+{
+  background-color: rgb(24, 23, 23);
+  border-color: white;
+  color:white;
+  position: relative;
+  top: 1px;
+  left: 1px;
+  text-decoration:none;
+}
+
+.icon_fb,.icon_ig,.icon_mail
+{
+  height: 48px;
+  margin-top:14px;
+  margin-left: 15px;
+  display: inline-block;
+  float:right;
+}
+
+.icon_fb
+{
+  margin-right: 75px;
+}
+
+.icon_mail
+{
+  margin-left: 29%;
+}
+
+.icon_fb img
+{
+  height: 48px;
+  width: 48px;
+}
+
+.icon_ig img
+{
+  height: 48px;
+  width: 48px;
+}
+
+.icon_mail img
+{
+  height: 48px;
+  width: 48px;
+}
+
+.icon_fb:hover
+{
+  background-image: url("icon/icon_fb_hover.png");
+  background-size: 48px,48px;
+}
+
+.icon_ig:hover
+{
+  background-image: url("icon/icon_ig_hover.png");
+  background-size: 48px,48px;
+}
+
+.icon_mail:hover
+{
+  background-image: url("icon/icon_gmail_hover.png");
+  background-size: 48px,48px;
+}
+
+.icon_fb img:hover
+{
+  opacity: 0;
+}
+
+.icon_ig img:hover
+{
+  opacity: 0;
+}
+
+.icon_mail img:hover
+{
+  opacity: 0;
+}
+
+.footer_text
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  height: 32px;
+  font-family: "Microsoft Yi Baiti";
+  font-size: 24px;
+  float: right;
+  color: white;
+  margin-top: 24px;
+}
+
+.logo
+{
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.logo img
+{
+  height: 48px;
+}
