@@ -86,9 +86,13 @@ article {
   margin-bottom: 20px;
 }
 
-.intro, .history {
+.feature, .activity {
   margin-left: 100px;
   margin-top: 50px;
+}
+
+.activity {
+  padding-left: 35px;
 }
 
 .title {
@@ -116,6 +120,15 @@ article {
   padding-right: 20px;
   background-color: #D8D2E1;
   border-radius: 3px;
+}
+
+.thumbnail {
+  margin-left: 40px;
+}
+
+h3, p {
+  font-family: '微軟正黑體', sans-serif;
+  text-decoration: none;
 }
 
 .icon_fb,.icon_ig,.icon_mail {
