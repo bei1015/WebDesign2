@@ -1,6 +1,6 @@
 body
 {
-  
+
   margin:0px;
 }
 
@@ -60,6 +60,10 @@ footer
   color:white;
 }
 
+.btn {
+  text-align: center;
+}
+
 .botton,.botton_first,.botton_last
 {
   padding-top: 12px;
@@ -79,9 +83,9 @@ footer
   border-radius: 5px;
 }
 
-.botton_first
+.botton_last
 {
-  margin-left: 240px; /*92px*/
+  margin-right: 0;
 }
 
 .botton_first:hover , .botton:hover, .botton_last:hover
